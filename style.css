@@ -1,0 +1,150 @@
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  box-sizing: border-box;
+  padding: 35px 60px;
+  background-color: #000000;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-family: "Shadows Into Light", cursive;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  padding: 1px 0;
+  text-transform: uppercase;
+  margin: 0 10px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+h1 {
+  color: #000;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.aboutUs:hover {
+  color: #54300d;
+  transition: all 0.3s ease;
+}
+.statistics:hover {
+  color: #ff8c80;
+  transition: all 0.3s ease;
+}
+.testimonies:hover {
+  color: #367a47;
+  transition: all 0.3s ease;
+}
+.submit:hover {
+  color: #e640a6;
+  transition: all 0.3s ease;
+}
+
+#AboutUs {
+  background-image: url(https://cdn.glitch.com/45604e69-2b9d-489c-afad-e853b2f0fac0%2F%23iphone%20%23iphonewallpaper%20%23aesthetic%20%23background%20%23wallpapers%20%23instagram%20%23feminism.jpg?v=1617473706293);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Statistics {
+  background-color: #ff8d85;
+}
+#Testimonies {
+  background-image: url(https://cdn.glitch.com/45604e69-2b9d-489c-afad-e853b2f0fac0%2Fdownload.jpg?v=1617474895189);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Submit {
+  background-image: url(https://cdn.glitch.com/45604e69-2b9d-489c-afad-e853b2f0fac0%2FPin%20on%20woman%20power.jpg?v=1617475422409);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.widthofbox {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 90px 72px 50px 46px;
+  min-height: 100vh;
+}
+
+.writing {
+  color: #000;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: "New Tegomin", serif;
+}
+
+.formlols{
+  text-align: center;
+}
+
+
+.slide1 {
+  position: relative;
+  animation-timing-function: linear;
+	animation-iteration-count: infinite;
+  width: 50%;
+  font-size: 2em;
+  display: block;
+  text-align: center;
+	animation-duration: 25s;	
+}
+
+.slide1{
+	animation-name: slide10;
+}
+
+@keyframes slide10 {
+	0%, 8% { left: -100%; opacity: 0; }
+  9% , 59%{ left: 25%; opacity: 1; }
+  41%, 100%{ left: 100%; opacity: 0; }
+}
+
+.slide2 {
+  position: relative;
+  animation-timing-function: linear;
+	animation-iteration-count: infinite;
+  width: 50%;
+  font-size: 2em;
+  display: block;
+  text-align: center;
+	animation-duration: 25s;	
+}
+.slide2{
+	animation-name: slide20;
+}
+
+@keyframes slide20 {
+	41%, 43% { left: -100%; opacity: 0; }
+  67%, 86% { left: 25%; opacity: 1; }
+  100%{ left: 100%; opacity: 0; }
+}
+
+
+.fact1, .fact2, .fact3, .fact4, .fact5, .fact6 {
+  padding: 25px; font-family: Helvetica;
+  position: relative;
+  top: 600;
+  right: 30;
+  width: 875; height: 100;
+  text-align: center;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 8px;
+  color: black;
+  font-size: 15px;  
+}
